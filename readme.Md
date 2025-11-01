@@ -39,8 +39,33 @@ modes
 
 ● Failure mode analysis: What happens during extended outages (6+ hours)
 <br><br>
-My solution:<br>
-<h3> Block diagram of my SMC invoice</h3>
+<h1>My solution:</h1>
 
 ![picture](architecture_design.png)
 <br>
+<a href="https://lucid.app/lucidchart/4d4fcdb6-451f-47f7-b06b-b125a0840766/edit?viewport_loc=-3022%2C-1377%2C4657%2C2534%2C0_0&invitationId=inv_499ee04f-0c8c-4eb6-b3ea-4795da14d8ae"><h3> Block diagram of my SMC invoice</h3></a>
+
+<p><h4> 1. Offline-first functionality vs. Cloud-based AI processing capabilities:</h4>
+
+<li>Offline-first functionality:</li>
+
+i. In offline functionality there needs to be made invoice manually which is very time consuming.
+
+ii. Offline functionality is very easy for village and illiterate people because they can’t understand online cloud-based AI processing functionality.
+
+iii. There haven’t faced outages which also face in online cloud-based AI processing functionality.
+
+iv. There haven’t faced lower connectivity problems which also face in online cloud-based AI processing functionality.
+
+<li>Cloud-based AI processing:</li>
+
+i. In online Cloud-based functionality there needn’t to be made invoice manually which is less time consuming.
+
+ii. Online Cloud-based functionality is very easy for city and literate people because they understand online cloud-based AI processing functionality.
+
+iii. There sometime face outages which isn’t faced in Offline functionality.
+
+iv. There sometime face lower connectivity problems which isn’t faced in Offline functionality.
+
+v. When data uploading time if there face any outages and low connectivity problems then it will store temporarily. When there will be reconnection within 6 hours then it will to API for validation.
+</p>
