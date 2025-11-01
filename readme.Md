@@ -21,14 +21,14 @@ Business Constraints:
 
 ● Data privacy regulations require data to stay within Bangladesh.
 
-Your Task: 
+My Task: 
 Design a system architecture that balances: 
 1. Offline-first functionality vs. Cloud-based AI processing capabilities 
 2. Data accuracy and validation vs. Processing speed during connectivity windows 
 3. Local device storage constraints vs. Centralized data consistency 
 4. Cost efficiency vs. Feature richness
 
-Deliverables: 
+My Deliverables: 
 
 ● High-level architecture diagram showing data flow in both online and offline 
 modes
@@ -67,5 +67,11 @@ iii. There sometime face outages which isn’t faced in Offline functionality.
 
 iv. There sometime face lower connectivity problems which isn’t faced in Offline functionality.
 
-v. When data uploading time if there face any outages and low connectivity problems then it will store temporarily. When there will be reconnection within 6 hours then it will to API for validation.
+v. During data uploading time if there face any outages and low connectivity problems then it will store temporarily. When there will be reconnection within 6 hours then it will to API for validation.
 </p>
+
+<h4>2. Data accuracy and validation vs. Processing speed during connectivity windows:</h4>
+<li>Data accuracy and validation:</li>
+<p>When customers submit their invoice then the API check those data are valid or not. If submitted data are valid then it will store into database and also give a successful message so that the customers can understand that their invoice completed successfully. On the other hand if the submitted data aren’t valid then it fail to store into database and also give an error message so that the customers can understand that their invoice have some error.
+<li>Processing speed during connectivity windows:</li>
+When customers submit their invoices then those data will be checked for validation in between 1 or 2 seconds. If invoices data are valid then it will be stored in the database and give a successful message to the customer. On the other hand, if invoice data are invalid then it will fail to store into database and give an error message. Both processes will be completed in between 1 or 2 seconds.</p>
