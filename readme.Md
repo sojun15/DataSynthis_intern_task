@@ -75,3 +75,10 @@ v. During data uploading time if there face any outages and low connectivity pro
 <p>When customers submit their invoice then the API check those data are valid or not. If submitted data are valid then it will store into database and also give a successful message so that the customers can understand that their invoice completed successfully. On the other hand if the submitted data aren’t valid then it fail to store into database and also give an error message so that the customers can understand that their invoice have some error.
 <li>Processing speed during connectivity windows:</li>
 When customers submit their invoices then those data will be checked for validation in between 1 or 2 seconds. If invoices data are valid then it will be stored in the database and give a successful message to the customer. On the other hand, if invoice data are invalid then it will fail to store into database and give an error message. Both processes will be completed in between 1 or 2 seconds.</p>
+
+<h4>3. Local device storage constraints vs. Centralized data consistency:</h4>
+<li>Local device storage constraints:</li>
+<p>Local device storage means when all the data of the invoices are stored onto a local computer and those data can be updated and deleted from that desktop computer. But it has some problems or constraints if the computer CPU or memory suddenly will face any problem then those data can’t store or access. Besides we can’t remote access those data from another device.
+<li>Centralized data consistency:</li>
+Centralized data consistency means when all the data of the invoice are stored into a centralized cloud computer such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) etc. It has a great benefit that is when our local device faces any problems then it can’t hamper data storing and accessing. Besides, we can remote access those data from another device.
+</p>
