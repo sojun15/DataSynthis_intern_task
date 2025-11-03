@@ -82,3 +82,15 @@ When customers submit their invoices then those data will be checked for validat
 <li>Centralized data consistency:</li>
 Centralized data consistency means when all the data of the invoice are stored into a centralized cloud computer such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) etc. It has a great benefit that is when our local device faces any problems then it can’t hamper data storing and accessing. Besides, we can remote access those data from another device.
 </p>
+
+<h3>4. Cost efficiency vs. Feature richness:</h3>
+<li>Cost efficiency:</li>
+<p>
+i. When customers create and process invoices through an online or hybrid platform, their transportation costs, printing expenses, and manual labor costs are significantly reduced.
+
+ii. By utilizing scalable cloud resources, the system is designed to maintain an average monthly cost below $15 per client.
+<li>Feature richness:</li>
+i. Feature richness means we can add more features in future such as advanced AI handwriting recognition, real-time analytics, and so on.
+</p>
+<p>ii. If these additional features improve accuracy, automate our services but also increase system complexity, and maintenance costs.
+</p>
